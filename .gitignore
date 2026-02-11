@@ -1,0 +1,28 @@
+# Python bytecode (file rác khi chạy Python)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Môi trường ảo (Virtual environments)
+venv/
+env/
+.venv/
+
+# File dữ liệu (Dữ liệu thường rất nặng, không nên đưa lên Git)
+*.csv
+*.xlsx
+*.json
+
+# File Model và Pickle (File huấn luyện xong thường có kích thước lớn)
+*.pkl
+*.pickle
+*.h5
+*.joblib
+
+# Cấu hình IDE (VS Code, PyCharm)
+.vscode/
+.idea/
+
+# Hệ điều hành
+.DS_Store
+Thumbs.db
